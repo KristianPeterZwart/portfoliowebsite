@@ -1,0 +1,24 @@
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #17181a);
+    font-family: "Nunito", sans-serif;
+
+}
+
+#logo{
+    color: white;
+    font-family: "Nunito",
+}
+.nav-header{
+    min-height: 10vh;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white
+}
