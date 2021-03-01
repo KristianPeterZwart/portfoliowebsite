@@ -10,12 +10,12 @@ body {
     overflow-x: hidden;
 }
 
-#logo{
+#logo {
     color: white;
     font-family: "Nunito",
 }
 
-.nav-header{
+.nav-header {
     min-height: 10vh;
     font-size: 1rem;
     display: flex;
@@ -46,7 +46,7 @@ body {
     background: #17181a;
 }
 
-.hero-desc{
+.hero-desc {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,7 +57,7 @@ body {
     position: relative;
 }
 
-.hero-img{
+.hero-img {
     position: relative;
     flex: 1;
     flex-basis: 25rem;
@@ -125,7 +125,7 @@ body {
     cursor: pointer;
 }
 
-.nav-links{
+.nav-links {
 font-size: 4rem;
 flex-basis: 30rem;
 }
@@ -164,8 +164,9 @@ flex-basis: 30rem;
     border: 2px solid white;
     border-radius: 50%;
     position: absolute;
+    transform: translate(-50%, -50%);
 }
 
-.scrollmagic-pin-spacer{
+.scrollmagic-pin-spacer {
     position: static !important;
 }
